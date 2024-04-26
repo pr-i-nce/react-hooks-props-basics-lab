@@ -1,14 +1,14 @@
 import React from 'react';
 
 function Links(props) {
-
+const { github,linkedin} = props
 
   return (
     <div>
       <h3>Links</h3>
-      <a href={props.links.github}>{props.links.github}</a>
+      <a href={github}>{github}</a>
       <br />
-      <a href={props.links.linkedin}>{props.links.linkedin}</a>
+      <a href={linkedin}>{linkedin}</a>
 
     </div>
   );
